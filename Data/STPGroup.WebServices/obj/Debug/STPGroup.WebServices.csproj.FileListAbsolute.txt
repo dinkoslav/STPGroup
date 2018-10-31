@@ -1,0 +1,9 @@
+E:\Work\STP\STPGroup\Data\STPGroup.WebServices\bin\Debug\STPGroup.WebServices.dll
+E:\Work\STP\STPGroup\Data\STPGroup.WebServices\bin\Debug\STPGroup.WebServices.pdb
+E:\Work\STP\STPGroup\Data\STPGroup.WebServices\bin\Debug\Newtonsoft.Json.dll
+E:\Work\STP\STPGroup\Data\STPGroup.WebServices\bin\Debug\Newtonsoft.Json.xml
+E:\Work\STP\STPGroup\Data\STPGroup.WebServices\obj\Debug\STPGroup.WebServices.csprojResolveAssemblyReference.cache
+E:\Work\STP\STPGroup\Data\STPGroup.WebServices\obj\Debug\STPGroup.WebServices.dll
+E:\Work\STP\STPGroup\Data\STPGroup.WebServices\obj\Debug\STPGroup.WebServices.pdb
+E:\Work\STP\STPGroup\Data\STPGroup.WebServices\bin\Debug\STPGroup.Services.ViewModels.dll
+E:\Work\STP\STPGroup\Data\STPGroup.WebServices\bin\Debug\STPGroup.Services.ViewModels.pdb

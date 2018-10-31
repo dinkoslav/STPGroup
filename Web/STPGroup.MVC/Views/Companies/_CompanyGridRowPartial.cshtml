@@ -1,0 +1,13 @@
+﻿@using STPGroup.Services.ViewModels.MVCModels
+
+@model CompanyGridViewModel
+
+<tr>
+    <td><a href="@Url.Action("Details", "Companies", new { id = Model.Id })">@Model.Name</a></td>
+    <td>@Model.Address</td>
+    <td>@Model.SalaryMin</td>
+    <td>@Model.SalaryMax</td>
+    <td>@Model.EmployeesCount</td>
+    <td><a href="@Url.Action("Edit", "Companies", new { id = Model.Id })">Edit</a></td>
+    <td><a href="@Url.Action("Delete", "Companies", new { id = Model.Id })">Delete</a></td>
+</tr>

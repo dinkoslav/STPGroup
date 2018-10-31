@@ -1,0 +1,48 @@
+﻿@using STPGroup.Services.ViewModels.MVCModels
+
+@model CompanyViewModel
+
+<div class="row">
+    @Html.HiddenFor(m => m.Id)
+    @Html.HiddenFor(m => m.CreatedOn)
+    @Html.HiddenFor(m => m.ModifiedOn)
+    <div class="row">
+        <div class="col-sm-3">
+            @Html.LabelFor(m => m.Name)
+        </div>
+        <div class="col-sm-9">
+            @Html.EditorFor(m => m.Name)
+        </div>
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            @Html.LabelFor(m => m.Address)
+        </div>
+        <div class="col-sm-9">
+            @Html.EditorFor(m => m.Address)
+        </div>
+        @Html.ValidationMessageFor(m => m.Address)
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            @Html.LabelFor(m => m.SalaryMin)
+        </div>
+        <div class="col-sm-9">
+            @Html.EditorFor(m => m.SalaryMin)
+        </div>
+        @Html.ValidationMessageFor(m => m.SalaryMin)
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            @Html.LabelFor(m => m.SalaryMax)
+        </div>
+        <div class="col-sm-9">
+            @Html.EditorFor(m => m.SalaryMax)
+        </div>
+        @Html.ValidationMessageFor(m => m.SalaryMax)
+    </div>
+</div>
+<div class="row">
+    <input type="submit" value="Submit">
+</div>

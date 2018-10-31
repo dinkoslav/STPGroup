@@ -1,0 +1,43 @@
+﻿@using STPGroup.Services.ViewModels.MVCModels
+
+@model IList<CompanyGridViewModel>
+
+@{
+    ViewBag.Title = "Companies";
+}
+
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading">Companies <a class="pull-right" href="@Url.Action("Add", "Companies")">Add</a></div>
+        <div class="panel-body">
+            @if (Model.Count > 0)
+            {
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">@Html.LabelFor(m => m[0].Name)</th>
+                            <th scope="col">@Html.LabelFor(m => m[0].Address)</th>
+                            <th scope="col">@Html.LabelFor(m => m[0].SalaryMin)</th>
+                            <th scope="col">@Html.LabelFor(m => m[0].SalaryMax)</th>
+                            <th scope="col">@Html.LabelFor(m => m[0].EmployeesCount)</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (CompanyGridViewModel company in Model)
+                {
+                            @Html.Partial("~/Views/Companies/_CompanyGridRowPartial.cshtml", company)
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p>
+                    No companies found!
+                </p>
+            }
+        </div>
+    </div>
+</div>

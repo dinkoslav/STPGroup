@@ -1,0 +1,24 @@
+﻿@using STPGroup.Services.ViewModels.MVCModels
+
+@model IList<EmployeeViewModel>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">@Html.LabelFor(m => m[0].FirstName)</th>
+            <th scope="col">@Html.LabelFor(m => m[0].LastName)</th>
+            <th scope="col">@Html.LabelFor(m => m[0].ExperienceLevelId)</th>
+            <th scope="col">@Html.LabelFor(m => m[0].StartingDate)</th>
+            <th scope="col">@Html.LabelFor(m => m[0].Salary)</th>
+            <th scope="col">@Html.LabelFor(m => m[0].VacationDays)</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (EmployeeViewModel employee in Model)
+        {
+            @Html.Partial("~/Views/Employees/_EmployeeGridRowPartial.cshtml", employee)
+        }
+    </tbody>
+</table>

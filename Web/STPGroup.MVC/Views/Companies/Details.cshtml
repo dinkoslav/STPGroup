@@ -1,0 +1,75 @@
+﻿@using STPGroup.Services.ViewModels.MVCModels
+
+@model CompanyDetailsViewModel
+
+<div class="row">
+    <div class="row col-sm-6">
+        <div class="col-sm-4">
+            @Html.LabelFor(m => m.Name)
+        </div>
+        <div class="col-sm-8">
+            @Model.Name
+        </div>
+    </div>
+    <div class="row col-sm-6">
+        <div class="col-sm-4">
+            @Html.LabelFor(m => m.Address)
+        </div>
+        <div class="col-sm-8">
+            @Model.Address
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="row col-sm-6">
+        <div class="col-sm-4">
+            @Html.LabelFor(m => m.CreatedOn)
+        </div>
+        <div class="col-sm-8">
+            @Model.CreatedOn
+        </div>
+    </div>
+    <div class="row col-sm-6">
+        <div class="col-sm-4">
+            @Html.LabelFor(m => m.ModifiedOn)
+        </div>
+        <div class="col-sm-8">
+            @Model.ModifiedOn
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="row col-sm-6">
+        <div class="col-sm-4">
+            @Html.LabelFor(m => m.SalaryMin)
+        </div>
+        <div class="col-sm-8">
+            @Model.SalaryMin
+        </div>
+    </div>
+    <div class="row col-sm-6">
+        <div class="col-sm-4">
+            @Html.LabelFor(m => m.SalaryMax)
+        </div>
+        <div class="col-sm-8">
+            @Model.SalaryMax
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading">Employees <a class="pull-right" href="@Url.Action("Add", "Employees", new { id = Model.Id })">Add</a></div>
+        <div class="panel-body">
+            @if (Model.Employees.Count > 0)
+            {
+                @Html.Partial("~/Views/Employees/_EmployeesGrid.cshtml", Model.Employees)
+            }
+            else
+            {
+                <p>
+                    No employees found!
+                </p>
+            }
+        </div>
+    </div>
+</div>

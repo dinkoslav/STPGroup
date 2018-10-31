@@ -1,0 +1,10 @@
+E:\Work\STP\STPGroup\Services\STPGroup.Services.Infrastructure\bin\Debug\STPGroup.Services.Infrastructure.dll
+E:\Work\STP\STPGroup\Services\STPGroup.Services.Infrastructure\bin\Debug\STPGroup.Services.Infrastructure.pdb
+E:\Work\STP\STPGroup\Services\STPGroup.Services.Infrastructure\bin\Debug\AutoMapper.dll
+E:\Work\STP\STPGroup\Services\STPGroup.Services.Infrastructure\bin\Debug\System.ValueTuple.dll
+E:\Work\STP\STPGroup\Services\STPGroup.Services.Infrastructure\bin\Debug\AutoMapper.pdb
+E:\Work\STP\STPGroup\Services\STPGroup.Services.Infrastructure\bin\Debug\AutoMapper.xml
+E:\Work\STP\STPGroup\Services\STPGroup.Services.Infrastructure\bin\Debug\System.ValueTuple.xml
+E:\Work\STP\STPGroup\Services\STPGroup.Services.Infrastructure\obj\Debug\STPGroup.Services.Infrastructure.dll
+E:\Work\STP\STPGroup\Services\STPGroup.Services.Infrastructure\obj\Debug\STPGroup.Services.Infrastructure.pdb
+E:\Work\STP\STPGroup\Services\STPGroup.Services.Infrastructure\obj\Debug\STPGroup.Services.Infrastructure.csprojResolveAssemblyReference.cache

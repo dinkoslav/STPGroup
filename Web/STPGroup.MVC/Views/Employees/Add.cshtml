@@ -1,0 +1,8 @@
+﻿@using STPGroup.Services.ViewModels.MVCModels
+
+@model EmployeeViewModel
+
+@using (Html.BeginForm("Add", "Employees", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.Partial("~/Views/Employees/_EmployeeFormPartial.cshtml", Model)
+}

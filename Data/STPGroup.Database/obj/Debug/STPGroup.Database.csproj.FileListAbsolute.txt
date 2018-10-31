@@ -1,0 +1,10 @@
+E:\Work\STP\STPGroup\Data\STPGroup.Database\bin\Debug\STPGroup.Database.dll.config
+E:\Work\STP\STPGroup\Data\STPGroup.Database\bin\Debug\STPGroup.Database.dll
+E:\Work\STP\STPGroup\Data\STPGroup.Database\bin\Debug\STPGroup.Database.pdb
+E:\Work\STP\STPGroup\Data\STPGroup.Database\bin\Debug\EntityFramework.dll
+E:\Work\STP\STPGroup\Data\STPGroup.Database\bin\Debug\EntityFramework.SqlServer.dll
+E:\Work\STP\STPGroup\Data\STPGroup.Database\bin\Debug\EntityFramework.xml
+E:\Work\STP\STPGroup\Data\STPGroup.Database\bin\Debug\EntityFramework.SqlServer.xml
+E:\Work\STP\STPGroup\Data\STPGroup.Database\obj\Debug\STPGroup.Database.csprojResolveAssemblyReference.cache
+E:\Work\STP\STPGroup\Data\STPGroup.Database\obj\Debug\STPGroup.Database.dll
+E:\Work\STP\STPGroup\Data\STPGroup.Database\obj\Debug\STPGroup.Database.pdb

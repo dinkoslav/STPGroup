@@ -1,0 +1,15 @@
+﻿@using STPGroup.Services.ViewModels.MVCModels
+@using STPGroup.Services.Infrastructure.Enums
+
+@model EmployeeViewModel
+
+<tr>
+    <td>@Model.FirstName</td>
+    <td>@Model.LastName</td>
+    <td>@((ExperienceLevelType)Model.ExperienceLevelId)</td>
+    <td>@Model.StartingDate</td>
+    <td>@Model.Salary</td>
+    <td>@Model.VacationDays</td>
+    <td><a href="@Url.Action("Edit", "Employees", new { id = Model.Id })">Edit</a></td>
+    <td><a href="@Url.Action("Delete", "Employees", new { id = Model.Id })">Delete</a></td>
+</tr>
